@@ -366,8 +366,8 @@ section .title::after {
 }
 .projects .carousel .card {
     background: #222;
-    border-radius: 6px;
-    padding: 25px 35px;
+    border-radius: 0.6rem;
+    padding: 2.5rem 3.5rem;
     text-align: center;
     transition: all 0.3s ease;
 }
@@ -385,16 +385,19 @@ section .title::after {
     transform: scale(1.05);
 }
 .projects .carousel .card .text {
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: 500;
-    margin: 10px 0 7px 0;
+    margin: 1rem 0 0.7rem 0;
+}
+.projects .carousel .card p {
+    font-size: 1.6rem;
 }
 .projects .carousel .card img {
-    height: 150px;
-    width: 150px;
+    height: 15rem;
+    width: 15rem;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid #0d86cb;
+    border: 0.5rem solid #0d86cb;
     transition: all 0.3s ease;
 }
 .projects .carousel .card:hover img {
@@ -402,20 +405,20 @@ section .title::after {
 }
 .owl-dots {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 button.owl-dot {
-    height: 13px;
-    width: 13px;
-    margin: 0 5px;
+    height: 1.3rem;
+    width: 1.3rem;
+    margin: 0 0.5rem;
     outline: none !important;
     border-radius: 50%;
-    border: 2px solid #0d86cb !important;
+    border: 0.2rem solid #0d86cb !important;
     transition: all 0.3s ease;
 }
 button.owl-dot.active {
-    width: 35px;
-    border-radius: 14px;
+    width: 3.5rem;
+    border-radius: 1.4rem;
 }
 .owl-dot.active,
 .owl-dot.active:hover {
